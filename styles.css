@@ -1,6 +1,8 @@
 .container{
     display: flex;
     justify-content: center;
+    flex-direction:column;
+    align-items: center;
 }
 .first{
     background-color: #E6E6E6;
@@ -8,7 +10,8 @@
     height: 210px;
     border: solid 3px black;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+    flex-direction:row;
 }
 .firstItemLeft{ 
     flex-grow: 1;
@@ -40,6 +43,7 @@
     width: 200px;
     height: 50px;
     background-color: #24FF00;
+    border: solid 1px black;
 }
 
 
@@ -48,4 +52,210 @@
     height: 50px;
     background-color: #24FF00;
     margin: 0 10px;
+    border: solid 1px black;
+}
+
+.second{
+    background-color: #E6E6E6;
+    width: 1200px;
+    height: 210px;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondItemLeft{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secondItemCenter{
+    display: flex;
+    width: 100%;
+}
+
+.secondItemRight{
+    display: flex;
+    width: 100%;
+}
+
+.secondItemBlok{
+    width: 200px;
+    height: 50px;
+    background-color: #eaff00;
+    border: solid 1px black;
+    margin: 10px 15px;
+}
+.secondItemBlok2{
+    width: 200px;
+    height: 50px;
+    background-color: #eaff00;
+    border: solid 1px black;
+   
+}
+.secondItemCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.secondItemBlok21{
+    width: 100px;
+    height: 50px;
+    background-color: #eaff00;
+    border: solid 1px black;
+ 
+}
+.secondItemBlok3{
+    width: 200px;
+    height: 50px;
+    background-color: #eaff00;
+    border: solid 1px black;
+  margin: 5PX;
+}    
+.secondItemRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: end;
+    margin: 10px 10px;
+}
+.threeth{
+    background-color: #E6E6E6;
+    width: 1200px;
+    height: 210px;
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.threethItemCenter{
+    background: #f80606;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+   }
+.threethItemleft{
+    width: 200px;
+	height: 160px;
+	background: red;
+    margin: 15px;
+    border-radius: 10%;
+    border: solid black 3px;
+}
+.threethItemRight{
+    width: 200px;
+	height: 160px;
+	background: red;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threethItemBlock3{
+    background: #f8f5f5;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fourth{
+    background-color: #E6E6E6;
+    width: 1200px;
+    height: 210px;
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourthItem{
+    width: 160px;
+	height: 140px;
+	background: rgb(27, 3, 244);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+}
+
+.fourthItemByStart{
+    justify-content: flex-start;
+}
+
+.fourthItemByEnd{
+    justify-content: flex-end;
+}
+
+.fourthItemByBetween{
+    justify-content: space-around;
+}
+
+.fourthItemBlok{
+    background: #f8f5f5;
+    border-radius: 100px;
+    height: 100px;
+    width: 50px;
+}
+.fourthItemBlockBig{
+    background: #f8f5f5;
+    border-radius: 100px;
+    height: 100px;
+    width: 130px;
+    margin: 15px;
+}
+.fiveth{
+    background-color: #E6E6E6;
+    width: 1200px;
+    height: 450px;
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fivethItem{
+    width: 576px;
+	height: 350px;
+	background: #FFFF;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+   border: solid black;
+   border-width: 1px 10px 1px 40px;
+}
+.fivethItemBlok{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fivethItemBlok11{
+    width: 100px;
+	height: 100px;
+	background: #0505f3;    
+    border: solid 1px;
+
+}
+.fivethItemBlok12{
+    width: 100px;
+	height: 100px;
+	background: #e0e706;    
+    border: solid 1px;
+
+}
+.fivethItemBlok21{
+    width: 100px;
+	height: 100px;
+	background: #dce706;    
+    border: solid 1px;
+}
+.fivethItemBlok22{
+    width: 100px;
+	height: 100px;
+	background: #0511f3;    
+    border: solid 1px;
 }
