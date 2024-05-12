@@ -2,7 +2,7 @@
     --color1: #05b1b1;
     --color2: #52339a;
 }
-header, footer, section {
+section {
     padding: 100px 0;
 }
 header{
@@ -52,8 +52,12 @@ header, footer {
     background-color: var(--color1);
 }
 /* курс */
-.about, .shedule {
+.about, .shedule, .author, .buy  {
     background-color: #eee;
+}
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
 }
 .about i{   
     font-size: 25px;
@@ -80,6 +84,22 @@ header, footer {
 .forwhom h5{
     padding: 50px;
     border: 3px solid var(--color1);
+}
+/* autor */
+.author {
+    padding-bottom: 0;
+}
+.itd_img {
+    max-width: 260px;
+}
+/* відгуик */
+.rounded{
+    border-radius: 50% ! important ;
+    border-color: 3px solid var(--color1);
+}
+/* підвал */
+footer{
+    padding: 30px 0;
 }
 /* color */
 .color1{
