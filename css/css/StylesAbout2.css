@@ -1,0 +1,40 @@
+/* p.error{
+    color: rgb(0, 255, 136);
+}
+p.succes{
+    color: #6200ff;
+}
+p.succes.feedback{
+    border: 1px dashed #6200ff;
+}
+#content{
+    background-color: gray;
+    padding: 20px;
+}
+div .error{
+    color: red;
+}
+a[href*="wikipedia"]{
+    background-color: green;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase
+}
+a[href*="google"]{
+    color: aliceblue;
+    background-color: blue;
+    border: #6200ff;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: brown;
+}
