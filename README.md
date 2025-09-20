@@ -8,7 +8,6 @@ This project was created as a practice example to improve front-end development 
 ## 📸 Demo
 
 ![Preview Screenshot](img/preview.png)  
-*(replace with your own screenshot or add a GitHub Pages link)*
 
 ---
 
