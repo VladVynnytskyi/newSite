@@ -9,6 +9,7 @@ This project was created as a practice example to improve front-end development 
 
 ![Preview Screenshot](img/preview.png)  
 
+https://github.com/VladVynnytskyi/newSite.git
 ---
 
 ## ⚡ Technologies Used
